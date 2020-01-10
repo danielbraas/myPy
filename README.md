@@ -13,18 +13,15 @@ The last line of the error message was:
  NotImplementedError
 ```
 
-
-The solution to this problem can be found [here](https://stackoverflow.com/questions/58422817/jupyter-notebook-with-python-3-8-notimplementederror/58430041#58430041 "link to fix on stackoverflow")
+The solution to this problem can be found [here](https://stackoverflow.com/questions/58422817/jupyter-notebook-with-python-3-8-notimplementederror/58430041#58430041)
 and is to insert:
 
 
 ```
-{
 import sys
 
 if sys.platform == 'win32':
     asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
-}
 ```
 
 into the file at: `~/Python/Lib/site-packages/tornado/platform/asyncio.py`
