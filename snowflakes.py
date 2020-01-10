@@ -2,8 +2,10 @@
 import turtle
 
 pat = turtle.Turtle()
+pat.speed(0)
 
-def flake1(size):    #should add color option
+def flake1(size, color='red'):
+    pat.color(color)
     for i in range(12):
         for j in range(2):
             pat.forward(10 * size)
@@ -13,4 +15,6 @@ def flake1(size):    #should add color option
         pat.right(30)
 
 flake1(20)
-input()
+flake1(4, 'blue')
+
+pat.forward(100)
