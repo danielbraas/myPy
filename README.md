@@ -8,12 +8,9 @@
 The last line of the error message was:
 
 ```
-{
  File "C:\PYTHON\lib\asyncio\events.py", line 501, in add_reader
     raise NotImplementedError
  NotImplementedError
-
-}
 ```
 
 
