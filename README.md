@@ -44,8 +44,10 @@ Replace by `c.NotebookApp.notebook_dir = '/the/path/to/home/folder/'`
 <h4>Changing Jupyter Notebook Color Theme</h4>
 <p>Install `jupyterthemes` using and then set theme:
  
- ``` pip install jupyterthemes
+ ``` 
+ pip install jupyterthemes
  jt -t monokai
  ```
+ 
  If you want to further change to colors navigate to the `C:\path-to-python\Lib\site-packages\jupyterthemes\styles`
- folder, open the `.less` file you want to manipulate with a text editor and go nuts </p>
+ folder, open the `.less` file you want to manipulate with a text editor and go nuts. </p>
