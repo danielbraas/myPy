@@ -34,4 +34,9 @@ The solution to this problem was discussed on Stack Overflow [here](https://stac
 Open `cmd` (or Anaconda Prompt) and run `jupyter notebook --generate-config`.
 
 This writes a file to `C:\Users\username\.jupyter\jupyter_notebook_config.py`.
+Browse to the file location and open it in an Editor
+
+Search for the following line in the file: `#c.NotebookApp.notebook_dir = ''`
+
+Replace by `c.NotebookApp.notebook_dir = '/the/path/to/home/folder/'`
 </p>
