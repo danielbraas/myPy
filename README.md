@@ -29,7 +29,7 @@ below the main imports.</p>
 <hr>
 <h4>Changing the starting directory for Jupyter Notebooks</h4>
 <p>
-The solution to this problem was discussed on Stack Overflow [here](https://stackoverflow.com/questions/35254852/how-to-change-the-jupyter-start-up-folder):
+The solution to this problem was discussed on Stack Overflow [here](https://stackoverflow.com/questions/35254852/how-to-change-the-jupyter-start-up-folder)
 Open `cmd` (or Anaconda Prompt) and run `jupyter notebook --generate-config`.
 
 This writes a file to `C:\Users\username\.jupyter\jupyter_notebook_config.py`.
