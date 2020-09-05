@@ -13,7 +13,7 @@ import random
 for i in range(10):
     x = random.random()
     print(x)
-
+    
 random.randint(5, 10)
 
 t = [1,2,3]
@@ -21,7 +21,7 @@ for i in range(10):
     print(random.choice(t))
 
 
-#testing if variables defined in functions are saved in the global environment
+# testing if variables defined in functions are saved in the global environment
 def test():
     a = 1
     b = 3

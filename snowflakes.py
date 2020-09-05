@@ -1,7 +1,7 @@
 # This is a collection of functions that creates snowflakes using turtle
 import turtle
 
-pat = turtle.Turtle()
+pat = turtle
 pat.speed(0)
 
 def flake1(size, color='red'):
@@ -14,7 +14,5 @@ def flake1(size, color='red'):
             pat.right(120)
         pat.right(30)
 
-flake1(20)
-flake1(4, 'blue')
-
 pat.forward(100)
+flake1(10, 'blue')

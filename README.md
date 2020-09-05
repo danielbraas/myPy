@@ -2,6 +2,7 @@
 
 <h4>The scope of the repository</h4>
 <p>This repository will contain my python scripts and likely material that I am using to learn Python.</p>
+    raise NotImplementedError
 
 <h4>Trouble getting jupyter notebook to work</h4>
 <p>This passage describes problems I had to run jupyter notebook on a Windows10 PC. 
@@ -9,7 +10,6 @@ The last line of the error message was:
 
 ```
  File "C:\PYTHON\lib\asyncio\events.py", line 501, in add_reader
-    raise NotImplementedError
  NotImplementedError
 ```
 
@@ -26,3 +26,12 @@ if sys.platform == 'win32':
 
 into the file at: `~/Python/Lib/site-packages/tornado/platform/asyncio.py`
 below the main imports.</p>
+
+<h4>How to update all Python packages on Windows</h4>
+<p> This was taken from: `https://www.activestate.com/resources/quick-reads/how-to-update-all-python-packages/`</p>
+```
+pip freeze | %{$_.split('==')[0]} | %{pip install --upgrade $_}
+```
+
+<h4>Useful Add-Ins when using VSCode</h4>
+<li>Material Icon</li>
