@@ -1,10 +1,10 @@
 <h1> myPy Repo </h1>
 
-<h4>The scope of the repository</h4>
+<h2>The scope of the repository</h2>
 <p>This repository will contain my python scripts and likely material that I am using to learn Python.</p>
     raise NotImplementedError
 
-<h4>Trouble getting jupyter notebook to work</h4>
+<h3>Trouble getting jupyter notebook to work</h3>
 <p>This passage describes problems I had to run jupyter notebook on a Windows10 PC. 
 The last line of the error message was:
 
@@ -26,19 +26,18 @@ if sys.platform == 'win32':
 
 into the file at: `~/Python/Lib/site-packages/tornado/platform/asyncio.py`
 below the main imports.</p>
-<<<<<<< HEAD
-
-<h4>How to update all Python packages on Windows</h4>
+<tr>
+<h3>How to update all Python packages on Windows</h3>
 <p> This was taken from: `https://www.activestate.com/resources/quick-reads/how-to-update-all-python-packages/`</p>
 ```
 pip freeze | %{$_.split('==')[0]} | %{pip install --upgrade $_}
 ```
 
-<h4>Useful Add-Ins when using VSCode</h4>
+<h3>Useful Add-Ins when using VSCode</h3>
 <li>Material Icon</li>
-=======
+
 <hr>
-<h4>Changing the starting directory for Jupyter Notebooks</h4>
+<h3>Changing the starting directory for Jupyter Notebooks</h3>
 <p>
 The solution to this problem was discussed on Stack Overflow [here](https://stackoverflow.com/questions/35254852/how-to-change-the-jupyter-start-up-folder)
  
@@ -52,7 +51,7 @@ Search for the following line in the file: `#c.NotebookApp.notebook_dir = ''`
 Replace by `c.NotebookApp.notebook_dir = '/the/path/to/home/folder/'`
 </p>
 <hr>
-<h4>Changing Jupyter Notebook Color Theme</h4>
+<h3>Changing Jupyter Notebook Color Theme</h3>
 <p>Install `jupyterthemes` using and then set theme:
  
  ``` 
@@ -62,4 +61,4 @@ Replace by `c.NotebookApp.notebook_dir = '/the/path/to/home/folder/'`
  
  If you want to further change to colors navigate to the `C:\path-to-python\Lib\site-packages\jupyterthemes\styles`
  folder, open the `.less` file you want to manipulate with a text editor and go nuts. </p>
->>>>>>> 310af09223ff4028027455ed60d60d2d8a4eca07
+<tr>
