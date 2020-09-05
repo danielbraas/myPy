@@ -20,3 +20,9 @@ for line in fhand:
 line = line.rstrip()
 if line.startswith('From:'):
 print(line)        
+
+count = 0
+for letter in inp:
+    count += 1
+print(count)
+
