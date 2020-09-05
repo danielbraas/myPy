@@ -27,16 +27,6 @@ if sys.platform == 'win32':
 into the file at: `~/Python/Lib/site-packages/tornado/platform/asyncio.py`
 below the main imports.</p>
 <tr>
-<h3>How to update all Python packages on Windows</h3>
-<p> This was taken from: `https://www.activestate.com/resources/quick-reads/how-to-update-all-python-packages/`</p>
-```
-pip freeze | %{$_.split('==')[0]} | %{pip install --upgrade $_}
-```
-
-<h3>Useful Add-Ins when using VSCode</h3>
-<li>Material Icon</li>
-
-<hr>
 <h3>Changing the starting directory for Jupyter Notebooks</h3>
 <p>
 The solution to this problem was discussed on Stack Overflow [here](https://stackoverflow.com/questions/35254852/how-to-change-the-jupyter-start-up-folder)
@@ -62,3 +52,14 @@ Replace by `c.NotebookApp.notebook_dir = '/the/path/to/home/folder/'`
  If you want to further change to colors navigate to the `C:\path-to-python\Lib\site-packages\jupyterthemes\styles`
  folder, open the `.less` file you want to manipulate with a text editor and go nuts. </p>
 <tr>
+<h3>How to update all Python packages on Windows</h3>
+<p> This was taken from: `https://www.activestate.com/resources/quick-reads/how-to-update-all-python-packages/`</p>
+```
+pip freeze | %{$_.split('==')[0]} | %{pip install --upgrade $_}
+```
+
+<h3>Useful Add-Ins when using VSCode</h3>
+<li>Material Icon</li>
+
+<hr>
+
