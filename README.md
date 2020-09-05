@@ -40,7 +40,8 @@ Search for the following line in the file: `#c.NotebookApp.notebook_dir = ''`
 
 Replace by `c.NotebookApp.notebook_dir = '/the/path/to/home/folder/'`
 </p>
-<hr>
+
+<tr>
 <h3>Changing Jupyter Notebook Color Theme</h3>
 <p>Install `jupyterthemes` using and then set theme:
  
@@ -50,7 +51,9 @@ Replace by `c.NotebookApp.notebook_dir = '/the/path/to/home/folder/'`
  ```
  
  If you want to further change to colors navigate to the `C:\path-to-python\Lib\site-packages\jupyterthemes\styles`
- folder, open the `.less` file you want to manipulate with a text editor and go nuts. </p>
+ folder, open the `.less` file you want to manipulate with a text editor and go nuts. 
+ </p>
+
 <tr>
 <h3>How to update all Python packages on Windows</h3>
 <p> This was taken from: `https://www.activestate.com/resources/quick-reads/how-to-update-all-python-packages/`</p>
