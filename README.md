@@ -26,7 +26,7 @@ if sys.platform == 'win32':
 
 into the file at: `~/Python/Lib/site-packages/tornado/platform/asyncio.py`
 below the main imports.</p>
-<tr>
+<hr>
 <h3>Changing the starting directory for Jupyter Notebooks</h3>
 <p>
 The solution to this problem was discussed on Stack Overflow [here](https://stackoverflow.com/questions/35254852/how-to-change-the-jupyter-start-up-folder)
@@ -41,7 +41,7 @@ Search for the following line in the file: `#c.NotebookApp.notebook_dir = ''`
 Replace by `c.NotebookApp.notebook_dir = '/the/path/to/home/folder/'`
 </p>
 
-<tr>
+<hr>
 <h3>Changing Jupyter Notebook Color Theme</h3>
 <p>Install `jupyterthemes` using and then set theme:
  
@@ -54,7 +54,7 @@ Replace by `c.NotebookApp.notebook_dir = '/the/path/to/home/folder/'`
  folder, open the `.less` file you want to manipulate with a text editor and go nuts. 
  </p>
 
-<tr>
+<hr>
 <h3>How to update all Python packages on Windows</h3>
 <p> This was taken from: `https://www.activestate.com/resources/quick-reads/how-to-update-all-python-packages/`</p>
 ```
